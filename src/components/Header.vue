@@ -20,7 +20,7 @@ const changeLang = (lang) => {
 <template>
   <div class="main container">
     <a href="/">
-      <img src="../../public/logo.jpg" alt="Logo" class="main-logo" />
+      <img src="/logo.jpg" alt="Logo" class="main-logo" />
     </a>
 
     <div class="main-center">
@@ -34,12 +34,10 @@ const changeLang = (lang) => {
         <i class="fa-brands fa-telegram" />
       </a>
       <div class="main-right-buttons">
-        <el-button type="success" plain color="#36b872">{{
+        <el-button plain color="#36b872">{{
           $t("submissionOfApplication")
         }}</el-button>
-        <el-button type="success" plain color="#36b872">{{
-          $t("forParents")
-        }}</el-button>
+        <el-button plain color="#36b872">{{ $t("forParents") }}</el-button>
       </div>
 
       <!-- Language -->
@@ -130,6 +128,7 @@ const changeLang = (lang) => {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin-right: 3px;
 
   .fa-angle-down {
     font-size: 14px;
