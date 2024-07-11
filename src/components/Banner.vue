@@ -4,8 +4,8 @@
   <div class="container">
     <div class="main">
       <div class="main-leftimgs">
-        <img src="../../public/1.svg" alt="Simble 1" />
-        <img src="../../public/2.svg" alt="Simble 2" />
+        <img src="/1.svg" alt="Simble 1" />
+        <img src="/2.svg" alt="Simble 2" />
       </div>
 
       <div class="main-texts">
@@ -14,19 +14,19 @@
           {{ $t("fromTheFirstDay") }}
         </p>
         <div class="main-texts-buttons">
-          <el-button color="#ffb715" size="large" class="btn-application">
+          <el-button color="#ffb715" class="btn-application">
             {{ $t("submissionOfApplication") }}
           </el-button>
 
-          <el-button plain type="info" size="large" class="btn-info">
+          <el-button plain type="info" class="btn-info">
             {{ $t("detailed") }}
           </el-button>
         </div>
       </div>
 
       <div class="main-rightimgs">
-        <img src="../../public/3.svg" alt="Simble 3" />
-        <img src="../../public/4.svg" alt="Simble 4" />
+        <img src="/3.svg" alt="Simble 3" />
+        <img src="/4.svg" alt="Simble 4" />
       </div>
     </div>
   </div>
