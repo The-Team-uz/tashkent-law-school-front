@@ -3,6 +3,7 @@ import { ref } from "vue";
 
 const name = ref("");
 const phone = ref("");
+const options = { placeholder: "90 123 45 67", maxlength: 17 };
 </script>
 
 <template>
@@ -36,8 +37,12 @@ const phone = ref("");
           v-model="phone"
           mode="international"
           class="main-inputs-phone"
-        >
-        </vue-tel-input>
+          maxlength="8"
+          defaultCountry="uz"
+          validCharactersOnly="true"
+          :inputOptions="options"
+        ></vue-tel-input>
+
         <el-button color="#ffb715" class="main-inputs-btn">
           {{ $t("submissionOfApplication") }}
         </el-button>
