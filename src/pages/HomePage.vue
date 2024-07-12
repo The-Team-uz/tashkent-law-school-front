@@ -2,6 +2,7 @@
 import Header from "../components/Header.vue";
 import Banner from "../components/Banner.vue";
 import Register from "../components/Register.vue";
+import Footer from "../components/Footer.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@ import Register from "../components/Register.vue";
     <Header />
     <Banner />
     <Register />
+    <Footer />
   </div>
 </template>
 

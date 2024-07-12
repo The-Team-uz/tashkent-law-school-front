@@ -89,7 +89,7 @@ const options = { placeholder: "90 123 45 67", maxlength: 17 };
     align-items: center;
     gap: 10px;
     margin: 20px 0;
-    margin-right: 50px;
+    margin-right: 130px;
 
     &-name {
       font-size: 20px;
